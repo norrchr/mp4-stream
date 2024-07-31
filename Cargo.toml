@@ -1,0 +1,27 @@
+[package]
+name = "mp4-stream"
+version = "0.1.0"
+description = "High-level library for fMP4 streaming"
+documentation = "https://docs.rs/mp4-stream"
+readme = "README.md"
+keywords = ["video", "streaming", "media", "fmp4"]
+categories = ["multimedia"]
+authors.workspace = true
+edition.workspace = true
+rust-version.workspace = true
+homepage.workspace = true
+repository.workspace = true
+license.workspace = true
+
+[dependencies]
+flume.workspace = true
+quick-error.workspace = true
+serde = { workspace = true, optional = true }
+log = { workspace = true, optional = true }
+chrono.workspace = true
+bitflags.workspace = true
+fixed.workspace = true
+rscam.workspace = true
+x264.workspace = true
+futures-lite.workspace = true
+bmff.workspace = true
